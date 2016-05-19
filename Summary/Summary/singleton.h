@@ -1,4 +1,4 @@
-
+//
 // .h文件
 #define SingletonH(name) + (instancetype)shared##name;
 
