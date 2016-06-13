@@ -15,7 +15,7 @@
 		D107C88E1CED4E8900EB624D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D107C88C1CED4E8900EB624D /* LaunchScreen.storyboard */; };
 		D107C8991CED4E8900EB624D /* SummaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D107C8981CED4E8900EB624D /* SummaryTests.m */; };
 		D107C8A41CED4E8900EB624D /* SummaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D107C8A31CED4E8900EB624D /* SummaryUITests.m */; };
-		D107C8B41CED503C00EB624D /* singleton_eg.m in Sources */ = {isa = PBXBuildFile; fileRef = D107C8B31CED503C00EB624D /* singleton_eg.m */; };
+		D16F96411D0E59F200884DAD /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F96401D0E59F200884DAD /* Foundation+Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +55,7 @@
 		D107C8B11CED4F3D00EB624D /* singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = singleton.h; sourceTree = "<group>"; };
 		D107C8B21CED503C00EB624D /* singleton_eg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleton_eg.h; sourceTree = "<group>"; };
 		D107C8B31CED503C00EB624D /* singleton_eg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = singleton_eg.m; sourceTree = "<group>"; };
+		D16F96401D0E59F200884DAD /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,7 @@
 				D107C8B11CED4F3D00EB624D /* singleton.h */,
 				D107C8B21CED503C00EB624D /* singleton_eg.h */,
 				D107C8B31CED503C00EB624D /* singleton_eg.m */,
+				D16F96401D0E59F200884DAD /* Foundation+Log.m */,
 				D107C87E1CED4E8800EB624D /* Supporting Files */,
 			);
 			path = Summary;
@@ -280,7 +282,7 @@
 				D107C8861CED4E8800EB624D /* ViewController.m in Sources */,
 				D107C8831CED4E8800EB624D /* AppDelegate.m in Sources */,
 				D107C8801CED4E8800EB624D /* main.m in Sources */,
-				D107C8B41CED503C00EB624D /* singleton_eg.m in Sources */,
+				D16F96411D0E59F200884DAD /* Foundation+Log.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +508,7 @@
 				D107C8AA1CED4E8900EB624D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D107C8AB1CED4E8900EB624D /* Build configuration list for PBXNativeTarget "SummaryTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +517,7 @@
 				D107C8AD1CED4E8900EB624D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D107C8AE1CED4E8900EB624D /* Build configuration list for PBXNativeTarget "SummaryUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +526,7 @@
 				D107C8B01CED4E8900EB624D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
