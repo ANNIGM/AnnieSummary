@@ -16,6 +16,7 @@
 		D107C8991CED4E8900EB624D /* SummaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D107C8981CED4E8900EB624D /* SummaryTests.m */; };
 		D107C8A41CED4E8900EB624D /* SummaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D107C8A31CED4E8900EB624D /* SummaryUITests.m */; };
 		D16F96411D0E59F200884DAD /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F96401D0E59F200884DAD /* Foundation+Log.m */; };
+		D16F96451D0EB87C00884DAD /* NSString+MIMEType.m in Sources */ = {isa = PBXBuildFile; fileRef = D16F96441D0EB87C00884DAD /* NSString+MIMEType.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		D107C8B21CED503C00EB624D /* singleton_eg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleton_eg.h; sourceTree = "<group>"; };
 		D107C8B31CED503C00EB624D /* singleton_eg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = singleton_eg.m; sourceTree = "<group>"; };
 		D16F96401D0E59F200884DAD /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		D16F96431D0EB87C00884DAD /* NSString+MIMEType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MIMEType.h"; sourceTree = "<group>"; };
+		D16F96441D0EB87C00884DAD /* NSString+MIMEType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MIMEType.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,7 @@
 				D107C8B21CED503C00EB624D /* singleton_eg.h */,
 				D107C8B31CED503C00EB624D /* singleton_eg.m */,
 				D16F96401D0E59F200884DAD /* Foundation+Log.m */,
+				D16F96421D0EB85E00884DAD /* Category */,
 				D107C87E1CED4E8800EB624D /* Supporting Files */,
 			);
 			path = Summary;
@@ -147,6 +151,15 @@
 				D107C8A51CED4E8900EB624D /* Info.plist */,
 			);
 			path = SummaryUITests;
+			sourceTree = "<group>";
+		};
+		D16F96421D0EB85E00884DAD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D16F96431D0EB87C00884DAD /* NSString+MIMEType.h */,
+				D16F96441D0EB87C00884DAD /* NSString+MIMEType.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16F96451D0EB87C00884DAD /* NSString+MIMEType.m in Sources */,
 				D107C8861CED4E8800EB624D /* ViewController.m in Sources */,
 				D107C8831CED4E8800EB624D /* AppDelegate.m in Sources */,
 				D107C8801CED4E8800EB624D /* main.m in Sources */,
